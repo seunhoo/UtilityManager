@@ -45,3 +45,10 @@ processResources {
         expand props
     }
 }
+jar{
+    archiveFileName = 'UtilityManager.jar'
+    destinationDirectory = file("C:\\Users\\Admin\\Desktop\\게임\\server1.20.2\\plugins")
+    manifest {
+        attributes 'Main-Class': 'org.utilitymanager.UtilityManager'
+    }
+}

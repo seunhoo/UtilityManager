@@ -8,11 +8,11 @@ public class MainModule {
     private final MessageModule messageModule = new MessageModule();
     private final PlayerModule playerModule = new PlayerModule();
     public void broadcastMessage(CommandSender sender, String[] data){
-        messageModule.broadcastMessageNoPrefix(Message.BROADCAST_PREFIX.getMessage(), String.join("",data));
+        messageModule.broadcastMessageNoPrefix(Message.BROADCAST_PREFIX.getMessage(), String.join(" ",data));
     }
 
     public void selfMessage(CommandSender sender, String[] data){
-        messageModule.sendPlayerNoPrefix(sender, String.join("",data));
+        messageModule.sendPlayerNoPrefix(sender, String.join(" ",data));
     }
     public void selfSuicide(CommandSender sender, String[] data){
         Player player = (Player) sender;

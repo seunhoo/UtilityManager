@@ -35,6 +35,5 @@ public class CommandManager implements CommandExecutor {
     }
 
     private void help(CommandSender sender, String[] data) {
-        messageModule.sendPlayer(sender, Message.INFO_HELP.getMessage());
     }
 }

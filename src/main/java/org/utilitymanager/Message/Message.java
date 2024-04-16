@@ -23,6 +23,7 @@ public enum Message {
 
     // Info
     INFO_HELP(ChatColor.YELLOW + "./도움말 을 입력하여 명령어 확인"),
+
     INFO_YOUR_ARE_SUICIDE("당신은 50% 확률로" + ChatColor.RED + "즉사" + ChatColor.WHITE + "하였습니다." ),
     INFO_YOUR_ARE_NOT_SUICIDE("당신은 50% 확률로" + ChatColor.RED + "즉사" + ChatColor.WHITE + "하지 않았습니다." ),
 
