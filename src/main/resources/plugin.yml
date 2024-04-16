@@ -1,0 +1,8 @@
+name: UtilityManager
+version: '${version}'
+main: org.utilitymanager.UtilityManager
+api-version: '1.20'
+commands:
+  공지:
+  본인:
+  확률즉사:
